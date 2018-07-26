@@ -7,11 +7,13 @@
   <body>
 <p>
 <?php
-  $a = 100;
-  $b = 50;
-  while($a > 10){
+/*Utilisation boucle for
+1 - Définition des deux variables
+2 - condition
+3 - Décrémentation de la variable $a */
+  for($a = 100, $b = 2; $a > 10; $a --){
+    /*Affichage de la variable avec son calcul*/
     echo $a * $b . '<br />';
-    $a --;
   }
 ?>
 </p>
